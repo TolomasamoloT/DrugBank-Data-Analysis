@@ -1,7 +1,7 @@
 import pandas as pd
 from re import findall as re_findall
 import xml.etree.ElementTree as Et
-
+import random
 
 # a library of functions used in <name here>, in a separate file for testing via pytest
 
@@ -258,10 +258,6 @@ def int_to_db_string(int_value):
     A string with the format 'DB00000' + str(int_value).
   """
   return "DB" + str(int_value).zfill(5)
-
-
-import random
-import copy
 
 
 def generate_random(first_id, last_id, input_file, output_file):
