@@ -1,3 +1,10 @@
+TODO:
+    - make libs into a package and then import that pacakge when needed
+    - make more and better tests
+    - push local branch to main ( the one from sudents )
+    - write a clean readme with some example screenshots
+
+
 how to run server:
 
 ## 1. set up venv, so that:
